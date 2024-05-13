@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.clock {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.input-container .input {
+  font-size: 20px;
+  padding: 8px 12px;
+}
+
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.list .delete-btn {
+  padding: 8px 12px;
+  font-size: 16px;
+}
